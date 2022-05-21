@@ -1,5 +1,5 @@
 # we using a very minimal image with node installed
-FROM node
+FROM node:latest
 
 # set directory on container on which our file will have
 WORKDIR /user/app
